@@ -1,0 +1,928 @@
+@font-face {
+    font-family: "Nina";
+    src: url("Pacifico-Regular.ttf");
+}
+
+body > header > nav {
+    position: relative;
+    display: flex;
+    gap: 30px;
+    font-family: Nina;
+    top:37px;
+}
+
+body > header > nav > a {
+    color: white;
+    text-decoration: none;
+}
+body > header > nav > a:hover {
+    color: #6a813b;
+    text-decoration: none;
+}
+
+body {
+    margin: auto;
+    background-color: #a0ae81;
+    width: 500px;
+    height: 500px;
+}
+body > div > div > h1{
+    font-family: Nina;
+    font-size: 55px;
+    text-align: center;
+    top: -360px;
+    left: -13px;
+    position: relative;
+    margin: auto;
+}
+body > div > div > div.slika1{
+    background: url("images/favpng_imac-macbook-pro-apple.png") no-repeat;
+    height: 518px;
+    width: 592px;
+    position: relative;
+    display: block;
+    background-size: 100%;
+    top: 134px;
+    left: -60px;
+}
+.slika{
+    background: url("images/58adf277e612507e27bd3c34.png") no-repeat;
+    width: 474px;
+    height: 451px;
+    position: relative;
+    display: block;
+    background-size: 100%;
+    left: 21px;
+    top: -75px;
+}
+.intro{
+    font-family: Nina;
+    text-align: center;
+    position: relative;
+    top: -932px;
+    left: 46px;
+    width: 418px;
+    font-size: larger;
+}
+.pozadina2{
+    /*background-color: #6a813b;*/
+    background: url("images/vecteezy_foliage-seamless-pattern-on-green_5396647.jpg");
+    width: 1363px;
+    height: 428px;
+    position: relative;
+    display: block;
+    margin: auto;
+    left: -440px;
+    top: -525px;
+    z-index: -100;
+    color: transparent;
+}
+#socialmedia{
+    position: relative;
+    top: -168px;
+    text-align: center;
+    width: 200px;
+    left: 17px;
+    background-color: white;
+    border-radius: 20px;
+}
+.slika0{
+background: url("images/phone.png")no-repeat;
+    height: 784px;
+    width: 363px;
+    position: relative;
+    display: block;
+    left: -169px;
+    background-size: 100%;
+    top: -704px;
+}
+footer{
+    height: 40px;
+}
+.blog1{
+     position: relative;
+     top: -1267px;
+     left: -100px;
+ }
+body > footer > div > ul > li:nth-child(1) > span{
+    background: url("images/instagram.png") no-repeat;
+    height: 86px;
+    width: 108px;
+    display: block;
+    position: relative;
+    top: -121px;
+    background-size: 100%;
+    left: -39px;
+}
+body > footer > div > ul > li{
+    list-style: none;
+    font-size: large;
+    position: relative;
+}
+body > footer > div > ul > li > a{
+
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+    top: -182px;
+    position: relative;
+    left: 63px;
+}
+body > footer > div > ul > li:nth-child(2) > span{
+    background: url("images/twitter.png") no-repeat;
+    height: 86px;
+    width: 74px;
+    display: block;
+    position: relative;
+    top: -121px;
+    background-size: 100%;
+    left: -23px;
+}
+body > footer > div > ul > li:nth-child(3) > span{
+    background: url("images/facebook.png") no-repeat;
+    height: 88px;
+    width: 100px;
+    display: block;
+    position: relative;
+    top: -136px;
+    background-size: 100%;
+    left: -36px;
+}
+body > footer > div > ul > li > a:hover{
+    color: white;
+}
+.slika00{
+    background: url("images/stickynote.png") no-repeat;
+    position: relative;
+    display: block;
+    height: 357px;
+    width: 398px;
+    background-size: 100%;
+    top: -1862px;
+    left: 337px;
+
+}
+body > footer > ul {
+    position: relative;
+    top: -2107px;
+    left: 448px;
+    gap: 20px;
+    display: grid;
+    font-size: larger;
+    color: red;
+    width: 200px;
+}
+body > footer > ul > li > a{
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+body > footer > ul > li > a:hover{
+    color: red;
+}
+body > footer > ul:nth-child(5) > a{
+    font-family: Nina;
+    position: relative;
+    font-size: x-large;
+    top: 257px;
+    color: white;
+    left: -83px;
+    width: 272px;
+    display: block;
+    text-align: center;
+    border-style: dashed;
+    border-radius: 24px;
+}
+body > footer > ul:nth-child(5) > a:hover{
+    color: #6a813b;
+}
+body > footer > div:nth-child(3) > form{
+    position: relative;
+    top: 123px;
+    left: 259px;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: #6a813b;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+input[type=submit]:hover {
+    background-color: #6f8c31;
+}
+input[type=text], select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+body > footer > div:nth-child(3){
+    position: relative;
+    top: -1932px;
+}
+body > footer > ul > a{
+    position: relative;
+    top: 433px;
+    left: -66px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-family: 'Nina';
+    border-style: dashed;
+    font-size:x-large;
+    border-radius: 24px;
+    width: 272px;
+}
+body > footer > ul > a:hover{
+    color: #6a813b;
+}
+/*//////////////////////////////////////////////////////////////*/
+/*HOBI I OBRAZOVANIE*/
+/*//////////////////////////////////////////////////////////////*/
+
+
+@font-face {
+    font-family: "Nina";
+    src: url("Pacifico-Regular.ttf");
+}
+
+body {
+    margin: auto;
+    background-color: #a0ae81;
+    width: 500px;
+    height: 500px;
+}
+
+body > header > nav {
+    position: relative;
+    display: flex;
+    gap: 30px;
+    font-family: Nina;
+    top:37px;
+}
+
+body > header > nav > a {
+    color: white;
+    text-decoration: none;
+}
+
+body > header > nav > a:hover {
+    color: #6a813b;
+    text-decoration: none;
+}
+
+body > div.pozadina > div > h1 {
+    color: white;
+    font-family: Nina;
+    font-size: 66px;
+    position: relative;
+    top: 3318px;
+    left: -535px;
+    text-decoration: underline;
+    background-color: #6a813b;
+    width: 1458px;
+    text-align: center;
+}
+
+.bubble2 {
+    background: url("images/58adf26ee612507e27bd3c33.png") no-repeat;
+    height: 322px;
+    width: 345px;
+    display: block;
+    position: relative;
+    left: -303px;
+    background-size: 100%;
+    top: 3373px;
+}
+
+body > div.pozadina > div > p:nth-child(3) {
+    position: relative;
+    top: 3070px;
+    left: -289px;
+    font-family: 'Nina';
+    width: 300px;
+    text-align: center;
+}
+
+.slika17 {
+    background: url("images/orce.jpg") no-repeat;
+    height: 162px;
+    width: 371px;
+    display: block;
+    position: relative;
+    background-size: 100%;
+    top: 2865px;
+    left: 210px;
+    border-radius: 40px;
+
+}
+
+.slika18 {
+    background: url("images/580b585b2edbce24c47b276f.png") no-repeat;
+    width: 392px;
+    height: 136px;
+    display: block;
+    position: relative;
+    background-size: 50%;
+    top: 2800px;
+    left: 128px;
+}
+
+.slika19 {
+    background: url("images/orcelogo.png") no-repeat;
+    width: 236px;
+    height: 213px;
+    display: block;
+    position: relative;
+    top: 2859px;
+    left: 584px;
+    border-radius: 37px;
+}
+
+.bubble3 {
+    background: url("images/58adf26ee612507e27bd3c33.png") no-repeat;
+    height: 493px;
+    width: 366px;
+    display: block;
+    position: relative;
+    left: 125px;
+    background-size: 100%;
+    top: 2657px;
+    transform: scaleX(-1);
+}
+
+body > div.pozadina > div > p:nth-child(5) {
+    font-family: Nina;
+    position: relative;
+    top: 2191px;
+    width: 296px;
+    text-align: center;
+    left: 167px;
+
+}
+
+.slika15 {
+    background: url("images/finki.png") no-repeat;
+    height: 225px;
+    width: 225px;
+    display: block;
+    top: 2030px;
+    position: relative;
+    left: -217px;
+    border-radius: 42px;
+}
+
+.slika16 {
+    background: url("images/favpng_laptop-hp-elitebook-intel-core-i5-intel-core-i7-intel-hd-and-iris-graphics.png") no-repeat;
+    position: relative;
+    display: block;
+    width: 411px;
+    height: 161px;
+    background-size: 60%;
+    top: 1922px;
+    left: -341px;
+}
+
+.slika20 {
+    background: url("images/favpng_student-table-study-skills-tutor-education.png") no-repeat;
+    width: 255px;
+    height: 161px;
+    position: relative;
+    display: block;
+    background-size: 100%;
+    top: 1406px;
+    left: 576px;
+}
+
+body > div.teksthobi > h1 {
+    color: white;
+    font-family: Nina;
+    position: relative;
+    top: 35px;
+    left: -535px;
+    width: 50px;
+    text-decoration: underline;
+    font-size: 60px;
+    background-color: #6a813b;
+    width: 1458px;
+    text-align: center;
+}
+
+.bubble4 {
+    background: url("images/58adf277e612507e27bd3c34.png") no-repeat;
+    width: 427px;
+    height: 450px;
+    position: relative;
+    display: block;
+    background-size: 100%;
+    top: 82px;
+    left: -1px;
+}
+
+body > div.teksthobi > p:nth-child(3) {
+    position: relative;
+    font-family: Nina;
+    text-align: center;
+    top: -318px;
+    width: 346px;
+    left: 39px;
+}
+
+.slika21 {
+    background: url(images/343007583_1913207295723344_1776050938949232499_n.jpg) 0px -45px no-repeat;
+    height: 304px;
+    width: 270px;
+    position: relative;
+    display: block;
+    background-size: 100%;
+    top: 1367px;
+    border-radius: 30px;
+    left: -349px;
+}
+
+.slika22 {
+    background: url(images/FB_IMG_1682499765115.png) 0px -45px no-repeat;
+    height: 304px;
+    width: 270px;
+    position: relative;
+    display: block;
+    background-size: 100%;
+    top: 1059px;
+    border-radius: 30px;
+    left: 530px;
+}
+
+.slika23 {
+    background: url(images/342026721_174285268860138_2840750297331240069_n.jpg) 0px -71px no-repeat;
+    height: 261px;
+    width: 506px;
+    position: relative;
+    display: block;
+    background-size: 100%;
+    top: 1237px;
+    border-radius: 30px;
+    left: -331px;
+}
+
+.slika24 {
+    background: url("images/580b585b2edbce24c47b2480.png") no-repeat;
+    width: 541px;
+    height: 213px;
+    position: relative;
+    display: block;
+    background-size: 80%;
+    top: 1194px;
+    left: -303px;
+}
+
+.bubble5 {
+    background: url("images/58adf26ee612507e27bd3c33.png") no-repeat;
+    height: 387px;
+    width: 415px;
+    display: block;
+    position: relative;
+    left: 365px;
+    background-size: 100%;
+    top: 732px;
+    transform: scaleX(-1);
+}
+
+body > div.teksthobi > p:nth-child(5) {
+    font-family: Nina;
+    text-align: center;
+    position: relative;
+    top: -157px;
+    width: 343px;
+    left: 400px;
+}
+
+.bubble6 {
+    background: url("images/5f42d6aca3fa5400048a03fd.png") no-repeat;
+    width: 430px;
+    height: 158px;
+    position: relative;
+    display: block;
+    top: 1936px;
+    transform: scaleX(-1);
+    background-size: 100%;
+    left: -85px;
+}
+
+body > div.teksthobi > p:nth-child(7) {
+    display: block;
+    font-family: Nina;
+    text-align: center;
+    top: -219px;
+    background-color: white;
+    position: relative;
+    left: -36px;
+    width: 344px;
+}
+
+body > div.teksthobi > p:nth-child(6) {
+    position: relative;
+    top: -2000px;
+
+}
+
+body > div.teksthobi, body > div.teksthobi > p:nth-child(4), body > div.pozadina > div {
+    height: 0px;
+    position: relative;
+    top: -2000px;
+}
+.pozadina{
+    height: 2000px;
+}
+body > footer > div > ul > a {
+    color: white;
+    font-family: Nina;
+    text-decoration: none;
+    position: relative;
+    font-size: x-large;
+    top: 134px;
+    left: 425px;
+    width: 272px;
+    display: block;
+    text-align: center;
+    border-style: dashed;
+    border-radius: 24px;
+}
+body > footer > div > ul > a:hover{
+    color: #6a813b;
+}
+.slika25{
+    background: url("images/580b585b2edbce24c47b289c.png") no-repeat;
+    width: 504px;
+    height: 290px;
+    position: relative;
+    display: block;
+    background-size: 60%;
+    transform: scaleX(-1);
+    top: -244px;
+    left: -76px;
+}
+
+/*//////////////////////////////////////////////////////////////*/
+/*PATUVANJA*/
+/*//////////////////////////////////////////////////////////////*/
+
+@font-face {
+    font-family: "Nina";
+    src: url("Pacifico-Regular.ttf");
+}
+body{
+    margin: auto;
+    background-color: #a0ae81;
+    width: 500px;
+    height: 500px;
+}
+html{
+    height: 500px;
+    position: relative;
+    margin: auto;
+}
+body > header > nav{
+    position: relative;
+    display: flex;
+    gap: 30px;
+    font-family: Nina;
+    top:37px;
+}
+body > header > nav > a{
+    color: white;
+    text-decoration: none;
+}
+body > header > nav > a:hover{
+    color: #6a813b;
+    text-decoration: none;
+}
+body > div.pozadina > div.tekst > div > h2{
+    color: white;
+    font-family: Nina;
+    position: relative;
+    top: 49px;
+    font-size: 60px;
+    left: 111px;
+
+}
+
+body > div.pozadina > div.tekst > div > span{
+    background: url("images/58ee8cf43545163ec1942cd2.png") no-repeat;;
+    height: 304px;
+    width: 593px;
+    position: relative;
+    display: block;
+    background-size: 50%;
+    left: 202px;
+    top: -110px;
+    z-index: -100;
+}
+body > div.pozadina > div.tekst > div > span.bubble{
+    background: url("images/58adf26ee612507e27bd3c33.png") no-repeat;
+    height: 958px;
+    width: 462px;
+    display: block;
+    position: relative;
+    background-size: 80%;
+    left: -196px;
+    top: -372px;
+}
+body > div.pozadina > div.tekst > div > p{
+    color: black;
+    position: relative;
+    font-family: Nina;
+    width: 300px;
+    text-align: center;
+    left: -157px;
+    top: -140px;
+}
+.slika3{
+    background: url("images/italy.jpg") no-repeat;
+    height: 252px;
+    width: 382px;
+    display: block;
+    position: relative;
+    background-size: 100%;
+    top: -1310px;
+    left: 293px;
+    border-radius: 52px;
+}
+.slika4{
+    background: url("images/580b585b2edbce24c47b2d66.png") no-repeat;
+    width: 200px;
+    height: 290px;
+    position: relative;
+    display: block;
+    background-size: 140%;
+    top: -1680px;
+    left: 524px;
+}
+body > div.pozadina > p{
+    position: relative;
+    top: -1319px;
+    left: 475px;
+    font-family: Nina;
+    color: white;
+    font-size: x-large;
+    width: 100px;
+}
+
+.slika5{
+    background: url("images/budapest.webp") no-repeat;
+    height: 259px;
+    width: 419px;
+    display: block;
+    position: relative;
+    background-size: 100%;
+    top: -1730px;
+    left: -206px;
+    border-radius: 52px;
+    background-size: 110%;
+}
+.slika6{
+    background: url("images/580b585b2edbce24c47b2bfe.png") no-repeat;
+    width: 286px;
+    height: 290px;
+    position: relative;
+    display: block;
+    background-size: 100%;
+    top: -1899px;
+    left: -279px;
+}
+body > div.pozadina > p:nth-child(7){
+    position: relative;
+    top: -1748px;
+    left: 43px;
+    font-family: 'Nina';
+    color: white;
+    font-size: x-large;
+}
+.planemap{
+    background: url(images/favpng_flight-airplane-air-travel-airline-clip-art.png) -189px -4px no-repeat;
+    height: 179px;
+    width: 543px;
+    display: block;
+    position: relative;
+    background-size: 100%;
+    top: -1729px;
+    left: 103px;
+    z-index: -100;
+}
+.slika7{
+    background: url("images/paris.jpg") no-repeat;
+    height: 254px;
+    width: 372px;
+    display: block;
+    position: relative;
+    background-size: 100%;
+    top: -2419px;
+    left: 379px;
+    border-radius: 52px;
+    background-size: 100%;
+}
+.slika8{
+    background: url("images/580b585b2edbce24c47b2d60.png") no-repeat;
+    width: 333px;
+    height: 247px;
+    position: relative;
+    display: block;
+    background-size: 100%;
+    top: -2655px;
+    left: 224px;
+}
+body > div.pozadina > p:nth-child(10){
+    position: relative;
+    top: -2432px;
+    left: 553px;
+    font-family: Nina;
+    color: white;
+    font-size: x-large;
+    width: 100px;
+}
+.slika9{
+    background: url(images/riga.jpg) 0px -38px no-repeat;
+    height: 344px;
+    width: 629px;
+    display: block;
+    position: relative;
+    border-radius: 4px;
+    left: -37px;
+    top: -2864px;
+    border-radius: 52px;
+    background-size: 100%;
+}
+
+.slika10{
+    background: url(images/580b585b2edbce24c47b2d10.png) no-repeat;
+    width: 435px;
+    height: 368px;
+    position: relative;
+    display: block;
+    top: -3083px;
+    left: 269px;
+    baclground-siz: 60%;
+    background-size: 100%;
+}
+body > div.pozadina > p:nth-child(14){
+    position: relative;
+    top: -2883px;
+    left: 68px;
+    font-family: Nina;
+    color: white;
+    font-size: xx-large;
+    width: 100px;
+}
+.planemap1{
+    background: url(images/favpng_flight-airplane-air-travel-airline-clip-art.png) 169px 6px no-repeat;
+    height: 352px;
+    width: 545px;
+    display: block;
+    position: relative;
+    background-size: 100%;
+    top: -2863px;
+    left: -215px;
+    z-index: -100;
+}
+body > div.pozadina > div.pat > p{
+    color: black;
+    position: relative;
+    font-family: Nina;
+    width: 358px;
+    text-align: center;
+    top: -154px;
+    left: 339px;
+;
+
+}
+.bubble1{
+    background: url("images/58adf26ee612507e27bd3c33.png") no-repeat;
+    height: 958px;
+    width: 462px;
+    display: block;
+    position: relative;
+    background-size: 100%;
+    left: 283px;
+    top: 746px;
+    transform: scaleX(-1);
+}
+.slika11{
+    background: url("images/bolzano.jpg") no-repeat;
+    height: 281px;
+    width: 546px;
+    display: block;
+    position: relative;
+    top: -100px;
+    left: -204px;
+    border-radius: 52px;
+    background-size: 100%;
+}
+.slika12{
+    background: url("images/585f920fcb11b227491c357b.png") no-repeat;
+    height: 281px;
+    width: 335px;
+    display: block;
+    position: relative;
+    top: -362px;
+    left: 156px;
+    border-radius: 52px;
+    background-size: 100%;
+    transform: scaleX(-1);
+}
+body > div.pozadina > div.pat > p:nth-child(4){
+    position: relative;
+    top: -114px;
+    left: -52px;
+    font-family: Nina;
+    color: white;
+    font-size: x-large;
+    width: 100px;
+}
+body > footer > div > ul > a{
+    color: white;
+    font-family: Nina;
+    text-decoration: none;
+    position: relative;
+    font-size: x-large;
+    top: 1470px;
+    left: 425px;
+    width: 272px;
+    display: block;
+    text-align: center;
+    border-style: dashed;
+    border-radius: 24px;
+
+}
+body > footer > div > ul > a:hover{
+    color: #6a813b;
+}
+.slika13{
+    background: url("images/viena.jpg") no-repeat;
+    height: 268px;
+    width: 411px;
+    display: block;
+    position: relative;
+    top: -3389px;
+    left: -154px;
+    border-radius: 52px;
+    background-size: 100%;
+}
+.slika14{
+    background: url("images/580b585b2edbce24c47b2bfa.png") no-repeat;
+    height: 600px;
+    width: 200px;
+    display: block;
+    position: relative;
+    top: -3641px;
+    left: -242px;
+    background-size: 100%;
+
+}
+body > div.pozadina > p:nth-child(17){
+    position: relative;
+    font-family: 'Nina';
+    color: white;
+    font-size: x-large;
+    top: -3228px;
+    left: 11px;
+}
+.planemap2{
+    background: url(images/favpng_flight-airplane-air-travel-airline-clip-art.png) -190px -39px no-repeat;
+    height: 189px;
+    width: 449px;
+    display: block;
+    position: relative;
+    background-size: 100%;
+    top: -3385px;
+    left: -79px;
+    z-index: -100;
+
+}
+body > div.pozadina > p:nth-child(18){
+    position: relative;
+    font-family: 'Nina';
+    color: white;
+    font-size: x-large;
+    top: -3408px;
+    left: 36px;
+}
+body > div.pozadina{
+    height: 1000px;
+
+}
+body > div.pozadina > div.pat{
+    height: 1px;
+    position: relative;
+    top: -5000px;
+}
+html{
+    scroll-behavior: smooth;
+}
