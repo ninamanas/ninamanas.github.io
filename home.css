@@ -12,13 +12,50 @@ body > header > nav {
 }
 
 body > header > nav > a {
-    color: white;
+    list-style: none;
+    color: black;
+    font-family: Nina;
+    font-weight: bold;
+    padding: 12px 16px;
+    margin: 0 8px;
+    position: relative;
+    cursor: pointer;
+    white-space: nowrap;
     text-decoration: none;
+    position: relative;
+    left: -114px;
 }
+body > header > nav > a:before {
+     content: " ";
+     position: absolute;
+     top: 0;
+     left:0;
+     height:100%;
+     width: 100%;
+     z-index:-1;
+     transition: .2s;
+     border-radius: 25px;
+
+ }
 body > header > nav > a:hover {
-    color: #6a813b;
-    text-decoration: none;
+    color: black;
+    background: linear-gradient(to bottom, #e8edec, #d2d1d3);
+    box-shadow: 0px 3px 20px 0px black;
+    transform: scale(1.2);
 }
+
+body > header > nav > a:before {
+    background: linear-gradient(to bottom, #e8edec, #d2d1d3);
+    box-shadow: 0px 3px 20px 0px black;
+    transform: scale(1.2);
+
+}
+
+
+/*body > header > nav > a:hover {*/
+/*    color: #6a813b;*/
+/*    text-decoration: none;*/
+/*}*/
 
 body {
     margin: auto;
@@ -152,35 +189,7 @@ body > footer > div > ul > li:nth-child(3) > span{
 body > footer > div > ul > li > a:hover{
     color: white;
 }
-.slika00{
-    background: url("images/stickynote.png") no-repeat;
-    position: relative;
-    display: block;
-    height: 357px;
-    width: 398px;
-    background-size: 100%;
-    top: -1862px;
-    left: 337px;
 
-}
-body > footer > ul {
-    position: relative;
-    top: -2107px;
-    left: 448px;
-    gap: 20px;
-    display: grid;
-    font-size: larger;
-    color: red;
-    width: 200px;
-}
-body > footer > ul > li > a{
-    color: black;
-    text-decoration: none;
-    font-weight: bolder;
-}
-body > footer > ul > li > a:hover{
-    color: red;
-}
 body > footer > ul:nth-child(5) > a{
     font-family: Nina;
     position: relative;
@@ -199,7 +208,7 @@ body > footer > ul:nth-child(5) > a:hover{
 }
 body > footer > div:nth-child(3) > form{
     position: relative;
-    top: 123px;
+    top: 529px;
     left: 259px;
 }
 input[type=submit] {
@@ -245,15 +254,48 @@ body > footer > ul > a{
 body > footer > ul > a:hover{
     color: #6a813b;
 }
+.blog1 > ul > a  {
+    color: white;
+    font-family: Nina;
+    text-decoration: none;
+    position: relative;
+    font-size: x-large;
+    top: -20px;
+    left: 529px;
+    width: 272px;
+    display: block;
+    text-align: center;
+    border-style: dashed;
+    border-radius: 24px;
+}
+.blog1 > ul > a:hover {
+    color: #a0ae81;
+}
+body > footer > div > ul > .pozadina1{
+
+    background-color: #6a813b;
+    display: block;
+    width: 1494px;
+    height: 153px;
+    top: 96px;
+    position: relative;
+    left: -511px;
+    margin: auto;
+    border-top: white;
+    border-style: dashed;
+    border-bottom: transparent;
+    border-right: transparent;
+    border-left: transparent;
+}
+.blog1{
+    position: relative;
+    top: -1262px;
+    left: -100px;
+    height: 0px;
+}
 /*//////////////////////////////////////////////////////////////*/
 /*HOBI I OBRAZOVANIE*/
 /*//////////////////////////////////////////////////////////////*/
-
-
-@font-face {
-    font-family: "Nina";
-    src: url("Pacifico-Regular.ttf");
-}
 
 body {
     margin: auto;
@@ -270,10 +312,7 @@ body > header > nav {
     top:37px;
 }
 
-body > header > nav > a {
-    color: white;
-    text-decoration: none;
-}
+
 
 body > header > nav > a:hover {
     color: #6a813b;
@@ -285,7 +324,7 @@ body > div.pozadina > div > h1 {
     font-family: Nina;
     font-size: 66px;
     position: relative;
-    top: 3318px;
+    top: 3446px;
     left: -535px;
     text-decoration: underline;
     background-color: #6a813b;
@@ -301,12 +340,12 @@ body > div.pozadina > div > h1 {
     position: relative;
     left: -303px;
     background-size: 100%;
-    top: 3373px;
+    top: 3540px;
 }
 
 body > div.pozadina > div > p:nth-child(3) {
     position: relative;
-    top: 3070px;
+    top: 3237px;
     left: -289px;
     font-family: 'Nina';
     width: 300px;
@@ -320,7 +359,7 @@ body > div.pozadina > div > p:nth-child(3) {
     display: block;
     position: relative;
     background-size: 100%;
-    top: 2865px;
+    top: 3014px;
     left: 210px;
     border-radius: 40px;
 
@@ -333,7 +372,7 @@ body > div.pozadina > div > p:nth-child(3) {
     display: block;
     position: relative;
     background-size: 50%;
-    top: 2800px;
+    top: 2943px;
     left: 128px;
 }
 
@@ -343,7 +382,7 @@ body > div.pozadina > div > p:nth-child(3) {
     height: 213px;
     display: block;
     position: relative;
-    top: 2859px;
+    top: 3027px;
     left: 584px;
     border-radius: 37px;
 }
@@ -356,14 +395,14 @@ body > div.pozadina > div > p:nth-child(3) {
     position: relative;
     left: 125px;
     background-size: 100%;
-    top: 2657px;
+    top: 2754px;
     transform: scaleX(-1);
 }
 
 body > div.pozadina > div > p:nth-child(5) {
     font-family: Nina;
     position: relative;
-    top: 2191px;
+    top: 2290px;
     width: 296px;
     text-align: center;
     left: 167px;
@@ -375,7 +414,7 @@ body > div.pozadina > div > p:nth-child(5) {
     height: 225px;
     width: 225px;
     display: block;
-    top: 2030px;
+    top: 2145px;
     position: relative;
     left: -217px;
     border-radius: 42px;
@@ -388,7 +427,7 @@ body > div.pozadina > div > p:nth-child(5) {
     width: 411px;
     height: 161px;
     background-size: 60%;
-    top: 1922px;
+    top: 2035px;
     left: -341px;
 }
 
@@ -399,7 +438,7 @@ body > div.pozadina > div > p:nth-child(5) {
     position: relative;
     display: block;
     background-size: 100%;
-    top: 1406px;
+    top: 1571px;
     left: 576px;
 }
 
@@ -407,7 +446,7 @@ body > div.teksthobi > h1 {
     color: white;
     font-family: Nina;
     position: relative;
-    top: 35px;
+    top: 1114px;
     left: -535px;
     width: 50px;
     text-decoration: underline;
@@ -424,7 +463,7 @@ body > div.teksthobi > h1 {
     position: relative;
     display: block;
     background-size: 100%;
-    top: 82px;
+    top: 1156px;
     left: -1px;
 }
 
@@ -432,7 +471,7 @@ body > div.teksthobi > p:nth-child(3) {
     position: relative;
     font-family: Nina;
     text-align: center;
-    top: -318px;
+    top: 760px;
     width: 346px;
     left: 39px;
 }
@@ -444,7 +483,7 @@ body > div.teksthobi > p:nth-child(3) {
     position: relative;
     display: block;
     background-size: 100%;
-    top: 1367px;
+    top: 2492px;
     border-radius: 30px;
     left: -349px;
 }
@@ -456,7 +495,7 @@ body > div.teksthobi > p:nth-child(3) {
     position: relative;
     display: block;
     background-size: 100%;
-    top: 1059px;
+    top: 2199px;
     border-radius: 30px;
     left: 530px;
 }
@@ -468,7 +507,7 @@ body > div.teksthobi > p:nth-child(3) {
     position: relative;
     display: block;
     background-size: 100%;
-    top: 1237px;
+    top: 2314px;
     border-radius: 30px;
     left: -331px;
 }
@@ -480,7 +519,7 @@ body > div.teksthobi > p:nth-child(3) {
     position: relative;
     display: block;
     background-size: 80%;
-    top: 1194px;
+    top: 2270px;
     left: -303px;
 }
 
@@ -492,7 +531,7 @@ body > div.teksthobi > p:nth-child(3) {
     position: relative;
     left: 365px;
     background-size: 100%;
-    top: 732px;
+    top: 1872px;
     transform: scaleX(-1);
 }
 
@@ -500,7 +539,7 @@ body > div.teksthobi > p:nth-child(5) {
     font-family: Nina;
     text-align: center;
     position: relative;
-    top: -157px;
+    top: 981px;
     width: 343px;
     left: 400px;
 }
@@ -511,7 +550,7 @@ body > div.teksthobi > p:nth-child(5) {
     height: 158px;
     position: relative;
     display: block;
-    top: 1936px;
+    top: 3097px;
     transform: scaleX(-1);
     background-size: 100%;
     left: -85px;
@@ -521,7 +560,7 @@ body > div.teksthobi > p:nth-child(7) {
     display: block;
     font-family: Nina;
     text-align: center;
-    top: -219px;
+    top: 939px;
     background-color: white;
     position: relative;
     left: -36px;
@@ -542,13 +581,13 @@ body > div.teksthobi, body > div.teksthobi > p:nth-child(4), body > div.pozadina
 .pozadina{
     height: 2000px;
 }
-body > footer > div > ul > a {
+.blog3 > ul > a  {
     color: white;
     font-family: Nina;
     text-decoration: none;
     position: relative;
     font-size: x-large;
-    top: 134px;
+    top: 1261px;
     left: 425px;
     width: 272px;
     display: block;
@@ -556,8 +595,8 @@ body > footer > div > ul > a {
     border-style: dashed;
     border-radius: 24px;
 }
-body > footer > div > ul > a:hover{
-    color: #6a813b;
+.blog3 > ul > a:hover {
+    color: #a0ae81;
 }
 .slika25{
     background: url("images/580b585b2edbce24c47b289c.png") no-repeat;
@@ -567,8 +606,24 @@ body > footer > div > ul > a:hover{
     display: block;
     background-size: 60%;
     transform: scaleX(-1);
-    top: -244px;
+    top: 911px;
     left: -76px;
+}
+body > footer > div > ul > span{
+
+    background-color: #6a813b;
+    display: block;
+    width: 1394px;
+    height: 153px;
+    top: 1375px;
+    position: relative;
+    left: -511px;
+    margin: auto;
+    border-top: white;
+    border-style: dashed;
+    border-bottom: transparent;
+    border-right: transparent;
+    border-left: transparent;
 }
 
 /*//////////////////////////////////////////////////////////////*/
@@ -597,10 +652,7 @@ body > header > nav{
     font-family: Nina;
     top:37px;
 }
-body > header > nav > a{
-    color: white;
-    text-decoration: none;
-}
+
 body > header > nav > a:hover{
     color: #6a813b;
     text-decoration: none;
@@ -609,7 +661,7 @@ body > div.pozadina > div.tekst > div > h2{
     color: white;
     font-family: Nina;
     position: relative;
-    top: 49px;
+    top: 2080px;
     font-size: 60px;
     left: 111px;
 
@@ -623,7 +675,7 @@ body > div.pozadina > div.tekst > div > span{
     display: block;
     background-size: 50%;
     left: 202px;
-    top: -110px;
+    top: 1941px;
     z-index: -100;
 }
 body > div.pozadina > div.tekst > div > span.bubble{
@@ -634,7 +686,7 @@ body > div.pozadina > div.tekst > div > span.bubble{
     position: relative;
     background-size: 80%;
     left: -196px;
-    top: -372px;
+    top: 1657px;
 }
 body > div.pozadina > div.tekst > div > p{
     color: black;
@@ -642,8 +694,8 @@ body > div.pozadina > div.tekst > div > p{
     font-family: Nina;
     width: 300px;
     text-align: center;
-    left: -157px;
-    top: -140px;
+    left: -164px;
+    top: 1891px;
 }
 .slika3{
     background: url("images/italy.jpg") no-repeat;
@@ -652,7 +704,7 @@ body > div.pozadina > div.tekst > div > p{
     display: block;
     position: relative;
     background-size: 100%;
-    top: -1310px;
+    top: 344px;
     left: 293px;
     border-radius: 52px;
 }
@@ -663,12 +715,12 @@ body > div.pozadina > div.tekst > div > p{
     position: relative;
     display: block;
     background-size: 140%;
-    top: -1680px;
+    top: -25px;
     left: 524px;
 }
 body > div.pozadina > p{
     position: relative;
-    top: -1319px;
+    top: 328px;
     left: 475px;
     font-family: Nina;
     color: white;
@@ -683,8 +735,8 @@ body > div.pozadina > p{
     display: block;
     position: relative;
     background-size: 100%;
-    top: -1730px;
-    left: -206px;
+    top: -74px;
+    left: -252px;
     border-radius: 52px;
     background-size: 110%;
 }
@@ -695,12 +747,12 @@ body > div.pozadina > p{
     position: relative;
     display: block;
     background-size: 100%;
-    top: -1899px;
-    left: -279px;
+    top: -243px;
+    left: -356px;
 }
 body > div.pozadina > p:nth-child(7){
     position: relative;
-    top: -1748px;
+    top: -85px;
     left: 43px;
     font-family: 'Nina';
     color: white;
@@ -713,9 +765,9 @@ body > div.pozadina > p:nth-child(7){
     display: block;
     position: relative;
     background-size: 100%;
-    top: -1729px;
+    top: 880px;
     left: 103px;
-    z-index: -100;
+    z-index: 1;
 }
 .slika7{
     background: url("images/paris.jpg") no-repeat;
@@ -724,7 +776,7 @@ body > div.pozadina > p:nth-child(7){
     display: block;
     position: relative;
     background-size: 100%;
-    top: -2419px;
+    top: -741px;
     left: 379px;
     border-radius: 52px;
     background-size: 100%;
@@ -736,12 +788,12 @@ body > div.pozadina > p:nth-child(7){
     position: relative;
     display: block;
     background-size: 100%;
-    top: -2655px;
+    top: -1008px;
     left: 224px;
 }
 body > div.pozadina > p:nth-child(10){
     position: relative;
-    top: -2432px;
+    top: -755px;
     left: 553px;
     font-family: Nina;
     color: white;
@@ -756,7 +808,7 @@ body > div.pozadina > p:nth-child(10){
     position: relative;
     border-radius: 4px;
     left: -37px;
-    top: -2864px;
+    top: -1208px;
     border-radius: 52px;
     background-size: 100%;
 }
@@ -767,15 +819,15 @@ body > div.pozadina > p:nth-child(10){
     height: 368px;
     position: relative;
     display: block;
-    top: -3083px;
+    top: -1448px;
     left: 269px;
     baclground-siz: 60%;
     background-size: 100%;
 }
 body > div.pozadina > p:nth-child(14){
     position: relative;
-    top: -2883px;
-    left: 68px;
+    top: -1230px;
+    left: 26px;
     font-family: Nina;
     color: white;
     font-size: xx-large;
@@ -788,8 +840,8 @@ body > div.pozadina > p:nth-child(14){
     display: block;
     position: relative;
     background-size: 100%;
-    top: -2863px;
-    left: -215px;
+    top: -1206px;
+    left: -239px;
     z-index: -100;
 }
 body > div.pozadina > div.pat > p{
@@ -798,9 +850,8 @@ body > div.pozadina > div.pat > p{
     font-family: Nina;
     width: 358px;
     text-align: center;
-    top: -154px;
-    left: 339px;
-;
+    top: 1389px;
+    left: 377px;
 
 }
 .bubble1{
@@ -810,8 +861,8 @@ body > div.pozadina > div.pat > p{
     display: block;
     position: relative;
     background-size: 100%;
-    left: 283px;
-    top: 746px;
+    left: 322px;
+    top: 2291px;
     transform: scaleX(-1);
 }
 .slika11{
@@ -820,7 +871,7 @@ body > div.pozadina > div.pat > p{
     width: 546px;
     display: block;
     position: relative;
-    top: -100px;
+    top: 1529px;
     left: -204px;
     border-radius: 52px;
     background-size: 100%;
@@ -831,7 +882,7 @@ body > div.pozadina > div.pat > p{
     width: 335px;
     display: block;
     position: relative;
-    top: -362px;
+    top: 1262px;
     left: 156px;
     border-radius: 52px;
     background-size: 100%;
@@ -839,7 +890,7 @@ body > div.pozadina > div.pat > p{
 }
 body > div.pozadina > div.pat > p:nth-child(4){
     position: relative;
-    top: -114px;
+    top: 1515px;
     left: -52px;
     font-family: Nina;
     color: white;
@@ -870,8 +921,8 @@ body > footer > div > ul > a:hover{
     width: 411px;
     display: block;
     position: relative;
-    top: -3389px;
-    left: -154px;
+    top: -1723px;
+    left: -218px;
     border-radius: 52px;
     background-size: 100%;
 }
@@ -881,8 +932,8 @@ body > footer > div > ul > a:hover{
     width: 200px;
     display: block;
     position: relative;
-    top: -3641px;
-    left: -242px;
+    top: -1976px;
+    left: -312px;
     background-size: 100%;
 
 }
@@ -891,7 +942,7 @@ body > div.pozadina > p:nth-child(17){
     font-family: 'Nina';
     color: white;
     font-size: x-large;
-    top: -3228px;
+    top: 1000px;
     left: 11px;
 }
 .planemap2{
@@ -901,7 +952,7 @@ body > div.pozadina > p:nth-child(17){
     display: block;
     position: relative;
     background-size: 100%;
-    top: -3385px;
+    top: -1283px;
     left: -79px;
     z-index: -100;
 
@@ -911,8 +962,8 @@ body > div.pozadina > p:nth-child(18){
     font-family: 'Nina';
     color: white;
     font-size: x-large;
-    top: -3408px;
-    left: 36px;
+    top: -1739px;
+    left: -14px;
 }
 body > div.pozadina{
     height: 1000px;
@@ -925,4 +976,37 @@ body > div.pozadina > div.pat{
 }
 html{
     scroll-behavior: smooth;
+}
+.blog4 > ul > a  {
+    color: white;
+    font-family: Nina;
+    text-decoration: none;
+    position: relative;
+    font-size: x-large;
+    top: 1337px;
+    left: 425px;
+    width: 272px;
+    display: block;
+    text-align: center;
+    border-style: dashed;
+    border-radius: 24px;
+}
+.blog4 > ul > a:hover {
+    color: #a0ae81;
+}
+body > footer > div > ul > .pozadina4{
+
+    background-color: #6a813b;
+    display: block;
+    width: 1394px;
+    height: 153px;
+    top: 1454px;
+    position: relative;
+    left: -511px;
+    margin: auto;
+    border-top: white;
+    border-style: dashed;
+    border-bottom: transparent;
+    border-right: transparent;
+    border-left: transparent;
 }
