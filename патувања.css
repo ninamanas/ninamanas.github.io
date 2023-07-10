@@ -1,0 +1,348 @@
+@font-face {
+    font-family: "Nina";
+    src: url("Pacifico-Regular.ttf");
+}
+body{
+    margin: auto;
+    background-color: #a0ae81;
+    width: 500px;
+    height: 500px;
+}
+html{
+    height: 500px;
+    position: relative;
+    margin: auto;
+}
+body > header > nav{
+    position: relative;
+    display: flex;
+    gap: 30px;
+    font-family: Nina;
+    top:37px;
+}
+body > header > nav > a{
+    color: white;
+    text-decoration: none;
+}
+body > header > nav > a:hover{
+    color: #6a813b;
+    text-decoration: none;
+}
+body > div.pozadina > div.tekst > div > h2{
+    color: white;
+    font-family: Nina;
+    position: relative;
+    top: 49px;
+    font-size: 60px;
+    left: 111px;
+
+}
+
+body > div.pozadina > div.tekst > div > span{
+    background: url("images/58ee8cf43545163ec1942cd2.png") no-repeat;;
+    height: 304px;
+    width: 593px;
+    position: relative;
+    display: block;
+    background-size: 50%;
+    left: 202px;
+    top: -110px;
+    z-index: -100;
+}
+body > div.pozadina > div.tekst > div > span.bubble{
+    background: url("images/58adf26ee612507e27bd3c33.png") no-repeat;
+    height: 958px;
+    width: 462px;
+    display: block;
+    position: relative;
+    background-size: 80%;
+    left: -196px;
+    top: -372px;
+}
+body > div.pozadina > div.tekst > div > p{
+    color: black;
+    position: relative;
+    font-family: Nina;
+    width: 300px;
+    text-align: center;
+    left: -157px;
+    top: -140px;
+}
+.slika3{
+    background: url("images/italy.jpg") no-repeat;
+    height: 252px;
+    width: 382px;
+    display: block;
+    position: relative;
+    background-size: 100%;
+    top: -1310px;
+    left: 293px;
+    border-radius: 52px;
+}
+.slika4{
+    background: url("images/580b585b2edbce24c47b2d66.png") no-repeat;
+    width: 200px;
+    height: 290px;
+    position: relative;
+    display: block;
+    background-size: 140%;
+    top: -1680px;
+    left: 524px;
+}
+body > div.pozadina > p{
+    position: relative;
+    top: -1319px;
+    left: 475px;
+    font-family: Nina;
+    color: white;
+    font-size: x-large;
+    width: 100px;
+}
+
+.slika5{
+    background: url("images/budapest.webp") no-repeat;
+    height: 259px;
+    width: 419px;
+    display: block;
+    position: relative;
+    background-size: 100%;
+    top: -1730px;
+    left: -206px;
+    border-radius: 52px;
+    background-size: 110%;
+}
+.slika6{
+    background: url("images/580b585b2edbce24c47b2bfe.png") no-repeat;
+    width: 286px;
+    height: 290px;
+    position: relative;
+    display: block;
+    background-size: 100%;
+    top: -1899px;
+    left: -279px;
+}
+body > div.pozadina > p:nth-child(7){
+    position: relative;
+    top: -1748px;
+    left: 43px;
+    font-family: 'Nina';
+    color: white;
+    font-size: x-large;
+}
+.planemap{
+    background: url(images/favpng_flight-airplane-air-travel-airline-clip-art.png) -189px -4px no-repeat;
+    height: 179px;
+    width: 543px;
+    display: block;
+    position: relative;
+    background-size: 100%;
+    top: -1729px;
+    left: 103px;
+    z-index: -100;
+}
+.slika7{
+    background: url("images/paris.jpg") no-repeat;
+    height: 254px;
+    width: 372px;
+    display: block;
+    position: relative;
+    background-size: 100%;
+    top: -2419px;
+    left: 379px;
+    border-radius: 52px;
+    background-size: 100%;
+}
+.slika8{
+    background: url("images/580b585b2edbce24c47b2d60.png") no-repeat;
+    width: 333px;
+    height: 247px;
+    position: relative;
+    display: block;
+    background-size: 100%;
+    top: -2655px;
+    left: 224px;
+}
+body > div.pozadina > p:nth-child(10){
+    position: relative;
+    top: -2432px;
+    left: 553px;
+    font-family: Nina;
+    color: white;
+    font-size: x-large;
+    width: 100px;
+}
+.slika9{
+    background: url(images/riga.jpg) 0px -38px no-repeat;
+    height: 344px;
+    width: 629px;
+    display: block;
+    position: relative;
+    border-radius: 4px;
+    left: -37px;
+    top: -2864px;
+    border-radius: 52px;
+    background-size: 100%;
+}
+
+.slika10{
+    background: url(images/580b585b2edbce24c47b2d10.png) no-repeat;
+    width: 435px;
+    height: 368px;
+    position: relative;
+    display: block;
+    top: -3083px;
+    left: 269px;
+    baclground-siz: 60%;
+    background-size: 100%;
+}
+body > div.pozadina > p:nth-child(14){
+    position: relative;
+    top: -2883px;
+    left: 68px;
+    font-family: Nina;
+    color: white;
+    font-size: xx-large;
+    width: 100px;
+}
+.planemap1{
+    background: url(images/favpng_flight-airplane-air-travel-airline-clip-art.png) 169px 6px no-repeat;
+    height: 352px;
+    width: 545px;
+    display: block;
+    position: relative;
+    background-size: 100%;
+    top: -2863px;
+    left: -215px;
+    z-index: -100;
+}
+body > div.pozadina > div.pat > p{
+    color: black;
+    position: relative;
+    font-family: Nina;
+    width: 358px;
+    text-align: center;
+    top: -154px;
+    left: 339px;
+;
+
+}
+.bubble1{
+    background: url("images/58adf26ee612507e27bd3c33.png") no-repeat;
+    height: 958px;
+    width: 462px;
+    display: block;
+    position: relative;
+    background-size: 100%;
+    left: 283px;
+    top: 746px;
+    transform: scaleX(-1);
+}
+.slika11{
+    background: url("images/bolzano.jpg") no-repeat;
+    height: 281px;
+    width: 546px;
+    display: block;
+    position: relative;
+    top: -100px;
+    left: -204px;
+    border-radius: 52px;
+    background-size: 100%;
+}
+.slika12{
+    background: url("images/585f920fcb11b227491c357b.png") no-repeat;
+    height: 281px;
+    width: 335px;
+    display: block;
+    position: relative;
+    top: -362px;
+    left: 156px;
+    border-radius: 52px;
+    background-size: 100%;
+    transform: scaleX(-1);
+}
+body > div.pozadina > div.pat > p:nth-child(4){
+    position: relative;
+    top: -114px;
+    left: -52px;
+    font-family: Nina;
+    color: white;
+    font-size: x-large;
+    width: 100px;
+}
+body > footer > div > ul > a{
+    color: white;
+    font-family: Nina;
+    text-decoration: none;
+    position: relative;
+    font-size: x-large;
+    top: 1470px;
+    left: 425px;
+    width: 272px;
+    display: block;
+    text-align: center;
+    border-style: dashed;
+    border-radius: 24px;
+
+}
+body > footer > div > ul > a:hover{
+    color: #6a813b;
+}
+.slika13{
+    background: url("images/viena.jpg") no-repeat;
+    height: 268px;
+    width: 411px;
+    display: block;
+    position: relative;
+    top: -3389px;
+    left: -154px;
+    border-radius: 52px;
+    background-size: 100%;
+}
+.slika14{
+    background: url("images/580b585b2edbce24c47b2bfa.png") no-repeat;
+    height: 600px;
+    width: 200px;
+    display: block;
+    position: relative;
+    top: -3641px;
+    left: -242px;
+    background-size: 100%;
+
+}
+body > div.pozadina > p:nth-child(17){
+    position: relative;
+    font-family: 'Nina';
+    color: white;
+    font-size: x-large;
+    top: -3228px;
+    left: 11px;
+}
+.planemap2{
+    background: url(images/favpng_flight-airplane-air-travel-airline-clip-art.png) -190px -39px no-repeat;
+    height: 189px;
+    width: 449px;
+    display: block;
+    position: relative;
+    background-size: 100%;
+    top: -3385px;
+    left: -79px;
+    z-index: -100;
+
+}
+body > div.pozadina > p:nth-child(18){
+    position: relative;
+    font-family: 'Nina';
+    color: white;
+    font-size: x-large;
+    top: -3408px;
+    left: 36px;
+}
+body > div.pozadina{
+    height: 1000px;
+
+}
+body > div.pozadina > div.pat{
+    height: 1px;
+    position: relative;
+    top: -5000px;
+}
